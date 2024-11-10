@@ -1,0 +1,108 @@
+/* Global Styles */
+body {
+    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff;
+}
+
+.card-body {
+    padding: 20px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+}
+
+/* Avatar and Author */
+
+/* Score */
+.score {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Buttons */
+.btn-outline-success, .btn-outline-danger {
+    font-size: 1rem;
+    padding: 6px 15px;
+}
+
+.btn-sm {
+    padding: 5px 15px;
+}
+
+.btn-primary {
+    padding: 8px 20px;
+}
+
+/* Comment Section */
+.comment-section {
+    padding-top: 10px;
+}
+
+.comment-section input {
+    border-radius: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 1rem;
+}
+
+.comment-section button {
+    border-radius: 25px;
+}
+
+/* Total Score */
+.total-score h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Success Message */
+.text-success {
+    font-size: 0.9rem;
+    font-weight: bold;
+    color: #28a745;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    .avatar {
+        width: 35px;
+        height: 35px;
+    }
+
+    .card-body {
+        padding: 15px;
+    }
+
+    .card-title {
+        font-size: 1.25rem;
+    }
+
+    .btn-outline-success, .btn-outline-danger {
+        font-size: 0.9rem;
+    }
+
+    .comment-section input {
+        font-size: 0.9rem;
+    }
+
+    .btn-sm {
+        padding: 4px 12px;
+    }
+}
